@@ -52,3 +52,40 @@ export default tseslint.config({
   },
 })
 ```
+# Ejecutar el Proyecto
+npm run dev
+
+
+# Estructura
+/mi-proyecto-react
+│── 📂 public
+│    ├── index.html
+│    ├── favicon.ico
+│
+│── 📂 src
+│    │── 📂 components       # Componentes reutilizables
+│    │    ├── Formulario.jsx
+│    │    ├── Button.jsx
+│    │
+│    │── 📂 pages            # Páginas principales
+│    │    ├── Home.jsx
+│    │
+│    │── 📂 hooks            # Custom Hooks
+│    │    ├── useFetch.js
+│    │
+│    │── 📂 services         # Conexiones con API
+│    │    ├── api.js
+│    │
+│    │── 📂 styles           # Archivos de estilos
+│    │    ├── global.css
+│    │    ├── Formulario.css
+│    │
+│    │── 📂 context          # Context API (Opcional)
+│    │    ├── AppContext.js
+│    │
+│    │── App.jsx
+│    │── main.jsx
+│
+│── package.json
+│── vite.config.js
+│── README.md
