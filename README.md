@@ -54,33 +54,32 @@ export default tseslint.config({
 ```
 # Ejecutar el Proyecto
 npm run dev
-
-
 # Estructura
+
 Form-React
 ├── 📂 public
 │   ├── 📝 index.html
 │   ├── 🎨 favicon.ico
 │
 ├── 📂 src
-│   ├── 📂 components   # Componentes reutilizables
+│   ├── 📂 components  # Componentes reutilizables
 │   │   ├── 📝 Formulario.jsx
 │   │   ├── 📝 Button.jsx
 │   │
-│   ├── 📂 pages   # Páginas principales
+│   ├── 📂 pages  # Páginas principales
 │   │   ├── 📝 Home.jsx
 │   │
-│   ├── 📂 hooks   # Custom Hooks
+│   ├── 📂 hooks  # Custom Hooks
 │   │   ├── 📝 useFetch.js
 │   │
-│   ├── 📂 services   # Conexiones con API
+│   ├── 📂 services  # Conexiones con API
 │   │   ├── 📝 api.js
 │   │
-│   ├── 📂 styles   # Archivos de estilos
+│   ├── 📂 styles  # Archivos de estilos
 │   │   ├── 🎨 global.css
 │   │   ├── 🎨 Formulario.css
 │   │
-│   ├── 📂 context   # Context API (Opcional)
+│   ├── 📂 context  # Context API (Opcional)
 │   │   ├── 📝 AppContext.js
 │   │
 │   ├── 📝 App.jsx
